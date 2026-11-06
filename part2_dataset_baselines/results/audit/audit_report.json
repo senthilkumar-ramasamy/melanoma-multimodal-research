@@ -1,0 +1,82 @@
+{
+  "metadata_rows": 10015,
+  "metadata_columns": [
+    "lesion_id",
+    "image_id",
+    "dx",
+    "dx_type",
+    "age",
+    "sex",
+    "localization",
+    "dataset"
+  ],
+  "duplicate_image_ids_in_metadata": 0,
+  "image_files_found": 10015,
+  "metadata_rows_without_image": 0,
+  "image_files_without_metadata_row": 0,
+  "undecodable_images": 0,
+  "image_size_counts": "{(600, 450): 10015}",
+  "exact_duplicate_images_removed": 2,
+  "lesions_with_conflicting_labels": 0,
+  "near_duplicate_pairs_across_lesions": 3069,
+  "flag_dist": 2,
+  "merge_dist": 0,
+  "near_duplicate_pairs_by_hamming": {
+    "0": 87,
+    "1": 646,
+    "2": 2336
+  },
+  "largest_group_if_merged_at_flag_dist": 1256,
+  "n_groups": 7412,
+  "largest_group_images": 12,
+  "missingness": {
+    "age": 57,
+    "sex": 0,
+    "localization": 0
+  },
+  "sex_values": {
+    "male": 5405,
+    "female": 4551,
+    "unknown": 57
+  },
+  "unknown_text_values": {
+    "sex": 57,
+    "localization": 234
+  },
+  "age_range": [
+    0.0,
+    85.0
+  ],
+  "dx_counts": {
+    "nv": 6703,
+    "mel": 1113,
+    "bkl": 1099,
+    "bcc": 514,
+    "akiec": 327,
+    "vasc": 142,
+    "df": 115
+  },
+  "dx_type_counts": {
+    "histo": 5338,
+    "follow_up": 3704,
+    "consensus": 902,
+    "confocal": 69
+  },
+  "n_images_retained": 10013,
+  "n_lesions_retained": 7470,
+  "n_positive": 1113,
+  "images_per_lesion": {
+    "count": 7470.0,
+    "mean": 1.3404283801874164,
+    "std": 0.6334804232734765,
+    "min": 1.0,
+    "25%": 1.0,
+    "50%": 1.0,
+    "75%": 2.0,
+    "max": 6.0
+  },
+  "histopathology_share": 0.533106960950764,
+  "exclusions_by_rule": {
+    "E3_exact_duplicate": 2
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "args": {
+    "out": "/content/out",
+    "seed": 42,
+    "epochs1": 3,
+    "epochs2": 30,
+    "patience": 5,
+    "bs": 32,
+    "lr1": 0.001,
+    "lr2": 0.0001,
+    "wd": 1e-05,
+    "size": 224,
+    "workers": 2,
+    "no_pretrained": false,
+    "max_images": 0
+  },
+  "device": "cuda",
+  "torch": "2.11.0+cu130",
+  "torchvision": "0.26.0+cu130",
+  "best_val_pr_auc": 0.5920297484535124,
+  "log": [
+    {
+      "phase": "head",
+      "epoch": 1,
+      "loss": 0.9996219701825386,
+      "val_pr_auc": 0.31197080501230706
+    },
+    {
+      "phase": "head",
+      "epoch": 2,
+      "loss": 0.9166193574845384,
+      "val_pr_auc": 0.3558084204638276
+    },
+    {
+      "phase": "head",
+      "epoch": 3,
+      "loss": 0.886963637496176,
+      "val_pr_auc": 0.39238293602471724
+    },
+    {
+      "phase": "finetune",
+      "epoch": 1,
+      "loss": 0.8182340433350948,
+      "val_pr_auc": 0.46174838713079974
+    },
+    {
+      "phase": "finetune",
+      "epoch": 2,
+      "loss": 0.6999430364674883,
+      "val_pr_auc": 0.48969284299350485
+    },
+    {
+      "phase": "finetune",
+      "epoch": 3,
+      "loss": 0.6296215581973582,
+      "val_pr_auc": 0.5499981973658858
+    },
+    {
+      "phase": "finetune",
+      "epoch": 4,
+      "loss": 0.5794168519812773,
+      "val_pr_auc": 0.5707191416691402
+    },
+    {
+      "phase": "finetune",
+      "epoch": 5,
+      "loss": 0.5457923051691248,
+      "val_pr_auc": 0.5744209022634119
+    },
+    {
+      "phase": "finetune",
+      "epoch": 6,
+      "loss": 0.4834678798279157,
+      "val_pr_auc": 0.5807088656178985
+    },
+    {
+      "phase": "finetune",
+      "epoch": 7,
+      "loss": 0.44621256730291947,
+      "val_pr_auc": 0.5920297484535124
+    },
+    {
+      "phase": "finetune",
+      "epoch": 8,
+      "loss": 0.42571368560010336,
+      "val_pr_auc": 0.5662007812128524
+    },
+    {
+      "phase": "finetune",
+      "epoch": 9,
+      "loss": 0.3918297593679565,
+      "val_pr_auc": 0.5784955962945139
+    },
+    {
+      "phase": "finetune",
+      "epoch": 10,
+      "loss": 0.37689801428446806,
+      "val_pr_auc": 0.5515816486103851
+    },
+    {
+      "phase": "finetune",
+      "epoch": 11,
+      "loss": 0.309472016682121,
+      "val_pr_auc": 0.559796605881824
+    },
+    {
+      "phase": "finetune",
+      "epoch": 12,
+      "loss": 0.2803171275656286,
+      "val_pr_auc": 0.5816056280505496
+    }
+  ],
+  "gpu": "Tesla T4"
+}

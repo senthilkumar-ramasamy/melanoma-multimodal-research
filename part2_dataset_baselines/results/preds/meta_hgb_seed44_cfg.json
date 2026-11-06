@@ -1,0 +1,8 @@
+{
+  "best_params": {
+    "clf__learning_rate": 0.1,
+    "clf__max_depth": 3,
+    "clf__max_iter": 300
+  },
+  "cv_pr_auc": 0.21373951191899296
+}

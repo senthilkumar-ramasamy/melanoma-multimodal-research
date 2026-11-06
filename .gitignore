@@ -1,0 +1,12 @@
+out/
+data/
+*.zip
+*.npy
+*.pt
+*.pth
+*.png
+*.jpg
+*.jpeg
+!part2_dataset_baselines/results/**/*.png
+__pycache__/
+.ipynb_checkpoints/

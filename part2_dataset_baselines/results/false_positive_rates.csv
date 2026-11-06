@@ -1,0 +1,25 @@
+model,dx,n_negatives,false_positives,fp_rate
+Image-only (EfficientNet-B0),akiec,43,36,0.8372093023255814
+Image-only (EfficientNet-B0),bcc,79,35,0.4430379746835443
+Image-only (EfficientNet-B0),bkl,146,95,0.6506849315068494
+Image-only (EfficientNet-B0),df,15,10,0.6666666666666666
+Image-only (EfficientNet-B0),nv,947,207,0.21858500527983105
+Image-only (EfficientNet-B0),vasc,18,4,0.2222222222222222
+Metadata-only: logistic regression,akiec,43,43,1.0
+Metadata-only: logistic regression,bcc,79,79,1.0
+Metadata-only: logistic regression,bkl,146,146,1.0
+Metadata-only: logistic regression,df,15,15,1.0
+Metadata-only: logistic regression,nv,947,713,0.7529039070749736
+Metadata-only: logistic regression,vasc,18,17,0.9444444444444444
+Metadata-only: random forest,akiec,43,42,0.9767441860465116
+Metadata-only: random forest,bcc,79,79,1.0
+Metadata-only: random forest,bkl,146,140,0.958904109589041
+Metadata-only: random forest,df,15,15,1.0
+Metadata-only: random forest,nv,947,651,0.6874340021119324
+Metadata-only: random forest,vasc,18,16,0.8888888888888888
+Metadata-only: gradient boosting,akiec,43,41,0.9534883720930233
+Metadata-only: gradient boosting,bcc,79,78,0.9873417721518988
+Metadata-only: gradient boosting,bkl,146,137,0.9383561643835616
+Metadata-only: gradient boosting,df,15,15,1.0
+Metadata-only: gradient boosting,nv,947,590,0.6230200633579726
+Metadata-only: gradient boosting,vasc,18,15,0.8333333333333334
